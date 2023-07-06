@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0; 
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif !important;
 }
 /* HEADER */
 header,
@@ -12,7 +12,38 @@ body{
     background-color: #38423B;
 }
 /* NAVBAR */
-.navbar__header a{
+.navbar{
+    background-color: #20FC8F !important; 
+}
+.navbar-nav{
+    background-color: #20FC8F !important; 
+    padding: 8px;
+    font-size: 20px;
+    
+}
+.nav-link{
+    margin: 8px;
+}
+#navbarNav{
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    color: #38423B;
+}
+#navbarNav ul{
+    color: #38423B;
+
+}
+.nav-item{
+    color: #38423B;
+    font-size: 24px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+/* .navbar__header a{
     text-decoration: none;
     color: #2D2D2A;
     font-size: 58px;
@@ -28,19 +59,23 @@ body{
     text-decoration: none;
     font-size: 20px;
     color: #2D2D2A; 
-}
+} */
 /* INDEX */
 .hero{
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .hero h2{
     color: #20FC8F;
     padding: 20px;
-    font-size: 160px;
+    font-size: 200px;
     text-align: center;
+    margin-top: 80px;
 }
 .subtitles{
     color: white;
@@ -49,36 +84,18 @@ body{
     padding: 15px;
 }
 /* CARD */
-.card {
-    width: 300px;
+
+.card{
     background-color: #2D2D2A;
     border: 1px solid #2D2D2A;
     border-radius: 4px;
     padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .card img{
     width: 100%;
-    height: auto;
+    height: auto; 
 }
-.card h4{
-    margin-top: 10px;
-    font-size: 18px;
-    color: #ffffff;
-}
-.card p{
-    margin-top: 5px;
-    color: #ffffff;
-}
-.card a{
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 16px;
-    background-color: #20FC8F;
-    color: black;
-    text-decoration: none;
-    border-radius: 4px;
-}
+
 /* PRODUCTS */
 .shirt-a-text, .pants-text{
     font-size: 18px;
@@ -165,20 +182,12 @@ body{
     color: black;
 }
 /* FOOTER */
-#icons{
-    font-size: 40px;
-    color: #38423B;
-}
-footer h4{
-    font-size: 25px;
-}
-.subtitles-footer{
-    color: #38423B;
-    font-size: 30px;
-    text-align: center;
+#help{
+    list-style-type: none;
 }
 #help li a{
     text-decoration: none;
-    color: #38423B;
-    font-size: 18px;
+    color: #2D2D2A;
 }
+
+/* list-style-type: none; */
