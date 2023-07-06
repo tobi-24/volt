@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Nunito', sans-serif;
+}
+/* HEADER */
+header,
+footer{
+    background-color: #20FC8F;
+}
+body{
+    background-color: #38423B;
+}
+/* NAVBAR */
+.navbar__header a{
+    text-decoration: none;
+    color: #2D2D2A;
+    font-size: 58px;
+}
+.navbar__header a h1{
+    display: flex;
+    justify-content: center;
+}
+.navbar__header ul li a{
+    display: flex;
+    padding: 3px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2D2D2A; 
+}
+/* INDEX */
+.hero{
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.hero h2{
+    color: #20FC8F;
+    padding: 20px;
+    font-size: 160px;
+    text-align: center;
+}
+.subtitles{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+/* CARD */
+.card {
+    width: 300px;
+    background-color: #2D2D2A;
+    border: 1px solid #2D2D2A;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card h4{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.card p{
+    margin-top: 5px;
+    color: #ffffff;
+}
+.card a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #20FC8F;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+/* PRODUCTS */
+.shirt-a-text, .pants-text{
+    font-size: 18px;
+}
+.shirt-a, .pants{
+    width: 380px;
+    height: 380px;
+}
+/* LOG IN */
+#logIn{
+    color: #ffffff;
+}
+
+.form-label{
+    font-size: 24px;
+    color: #ffffff;
+    margin: 10px;
+}
+.form-control{
+    width: 200px;
+    height: 20px;
+}
+.log-in-btn{
+    width: 50px;
+    height: 30px;
+    background-color: #20FC8F;
+    color: #38423B;
+    margin: 10px;
+}
+.account a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+}
+.account .sign-up-link{
+    color: #20FC8F;
+}
+/* CONTACT */
+.contact-info{
+    color: #ffffff;
+    text-decoration: none;
+}
+.contact-container i{
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 23px;
+}
+.contact-container h3, h4{
+    margin-left: 20px;
+    font-size: 23px;
+}
+/* ABOUT US */
+#aboutUsOffers{
+    margin: 8px;
+    color: #ffffff
+}
+.about-us-text{
+    color: #ffffff;
+    margin: 0px 60px 0px 60px;
+    font-size: 20px;
+}
+.subscribe-btn{
+    width: 80px;
+    height: 30px;
+    background-color: #20FC8F;
+    color: #38423B;
+    margin: 10px;
+}
+/* CART */
+#seeProducts{
+    color: #ffffff;
+    text-decoration: none;
+}
+.button-buy{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #20FC8F;
+    border-radius: 4px;
+}
+.button-buy a{
+    text-decoration: none;
+    color: black;
+}
+/* FOOTER */
+#icons{
+    font-size: 40px;
+    color: #38423B;
+}
+footer h4{
+    font-size: 25px;
+}
+.subtitles-footer{
+    color: #38423B;
+    font-size: 30px;
+    text-align: center;
+}
+#help li a{
+    text-decoration: none;
+    color: #38423B;
+    font-size: 18px;
+}
