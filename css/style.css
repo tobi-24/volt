@@ -82,6 +82,7 @@ body{
     text-align: center;
     font-size: 30px;
     padding: 15px;
+    margin: 80px 0px 50px 0px;
 }
 /* CARD */
 
@@ -90,12 +91,25 @@ body{
     border: 1px solid #2D2D2A;
     border-radius: 4px;
     padding: 10px;
+    margin-bottom: 80px;
 }
 .card img{
     width: 100%;
     height: auto; 
 }
-
+.card-body{
+    color: #ffffff;   
+}
+.card .btn{
+    color: #2D2D2A;
+    background-color: #20FC8F;
+    border-color: #20FC8F;
+}
+.card .btn:hover{
+    color: black;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
 /* PRODUCTS */
 .shirt-a-text, .pants-text{
     font-size: 18px;
