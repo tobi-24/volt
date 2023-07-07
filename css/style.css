@@ -100,13 +100,7 @@ body{
     border-color: #ffffff;
 }
 /* PRODUCTS */
-.shirt-a-text, .pants-text{
-    font-size: 18px;
-}
-.shirt-a, .pants{
-    width: 380px;
-    height: 380px;
-}
+
 /* LOG IN */
 #logIn{
     color: #ffffff;
@@ -230,4 +224,15 @@ body{
     #help li{
         font-size: 16px;
     }
+    /* PRODUCTS */
+    .products-stock h2{
+        margin: 40px 0px 20px 0px;
+        font-size: 36px;
+    }
+    .products-stock .col{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
 }
