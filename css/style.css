@@ -219,4 +219,15 @@ body{
         display: flex;
         justify-content: center;
     }
+    .col h3{
+        margin-top: 16px;
+        font-size: 26px;
+    }
+    #followUs{
+        margin-top: 16px;
+        font-size: 26px;
+    }
+    #help li{
+        font-size: 16px;
+    }
 }
