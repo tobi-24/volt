@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
+.btn {
+  color: #2D2D2A;
+  background-color: #20FC8F;
+  border-color: #20FC8F;
+}
+.btn:hover {
+  color: #000;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.subscribe-btn {
+  width: 80px;
+  height: 30px;
+  background-color: #20FC8F;
+  color: #38423B;
+  margin: 10px;
+}
+
+.button-buy {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #20FC8F;
+  border-radius: 4px;
+}
+.button-buy a {
+  text-decoration: none;
+  color: #000;
+}
+
+.log-in-btn {
+  width: 50px;
+  height: 30px;
+  background-color: #20FC8F;
+  color: #38423B;
+  margin: 10px;
+}
+
+footer {
+  background-color: #20FC8F;
+}
+footer h3 {
+  margin-top: 50px;
+  font-size: 32px;
+}
+footer #help {
+  list-style-type: none;
+}
+footer #help li {
+  font-size: 20px;
+}
+footer #help li a {
+  text-decoration: none;
+  color: #2D2D2A;
+}
+
+header {
+  background-color: #20FC8F;
+}
+header .navbar {
+  background-color: #20FC8F !important;
+}
+header .navbar #navbarNav {
+  align-items: center;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  color: #38423B;
+}
+header .navbar #navbarNav .navbar-nav {
+  background-color: #20FC8F !important;
+  padding: 8px;
+  font-size: 20px;
+  color: #38423B;
+}
+header .navbar #navbarNav .navbar-nav .nav-item {
+  color: #38423B;
+  font-size: 24px;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+}
+header .navbar #navbarNav .navbar-nav .nav-item .nav-link {
+  margin: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif !important;
+  background-color: #38423B;
+}
+
+.subtitles {
+  color: #20FC8F;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+  margin: 80px 0px 50px 0px;
+}
+
+main .about-us-text {
+  color: #ffffff;
+  margin: 0px 60px 0px 60px;
+  font-size: 20px;
+}
+main #aboutUsOffers {
+  margin: 8px;
+  color: #ffffff;
+}
+
+main #seeProducts {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main .contact-container h3, main h4 {
+  margin-left: 20px;
+  font-size: 23px;
+}
+main .contact-info {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main .hero {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .hero h2 {
+  color: #20FC8F;
+  padding: 20px;
+  font-size: 200px;
+  text-align: center;
+  margin-top: 80px;
+}
+main .card {
+  background-color: #2D2D2A;
+  border: 1px solid #2D2D2A;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+main .card img {
+  width: 100%;
+  height: auto;
+}
+main .card .card-body {
+  color: #ffffff;
+}
+
+main .form-label {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 10px;
+}
+main .form-control {
+  width: 200px;
+  height: 20px;
+}
+main .account a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin: 10px;
+}
+main .account .sign-up-link {
+  color: #20FC8F;
+}
+
+/*# sourceMappingURL=app.css.map */

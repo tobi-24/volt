@@ -1,0 +1,29 @@
+header{
+    background-color: $primary-color;
+    .navbar{
+        background-color: $primary-color !important;
+        #navbarNav{
+            align-items: center;
+            flex-direction: column;
+            align-content: space-around;
+            flex-wrap: wrap;
+            color: $seconadary-color;
+            .navbar-nav{
+                background-color: $primary-color !important; 
+                padding: 8px;
+                font-size: 20px;
+                color: $seconadary-color;
+                .nav-item{
+                    color: $seconadary-color;
+                    font-size: 24px;
+                    list-style-type: none;
+                    text-decoration: none;
+                    padding: 10px;   
+                    .nav-link{
+                        margin: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
