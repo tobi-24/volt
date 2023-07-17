@@ -1,14 +1,29 @@
 main{
     .about-us-text{
-        color: #ffffff;
-        margin: 0px 60px 0px 60px;
-        font-size: 20px;
+        color: $seventh-color;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
     }
     #aboutUsOffers{
-        margin: 8px;
-        color: #ffffff
+        font-size: 34px;
+        margin: 10px 10px 0px 40px;
+        color: $seventh-color;
+    }
+    .form-container{
+        .form-label{
+            font-size: 34px;
+            color: $seventh-color;
+            margin: 6px 10px 0px 40px;
+        }
+        .form-control {
+            width: 400px;
+            height: 36px;
+            margin: 10px 10px 10px 40px;
+            padding: 6px;
+            font-size: 20px
+        }
     }
 }
-
-
-

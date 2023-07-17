@@ -1,11 +1,17 @@
-main .about-us-text {
-  color: #ffffff;
-  margin: 0px 60px 0px 60px;
-  font-size: 20px;
-}
-main #aboutUsOffers {
-  margin: 8px;
-  color: #ffffff;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 3 |         color: $seventh-color;
+ *   |                ^^^^^^^^^^^^^^
+ *   '
+ *   scss\pages\about-us.scss 3:16  root stylesheet */
 
-/*# sourceMappingURL=about-us.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 3 \2502          color: $seventh-color;\d\a   \2502                 ^^^^^^^^^^^^^^\a   \2575 \a   scss\\pages\\about-us.scss 3:16  root stylesheet";
+}
