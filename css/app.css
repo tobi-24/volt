@@ -89,7 +89,7 @@
 footer {
   background-color: #20FC8F;
 }
-footer h3 {
+footer .footer-text {
   margin-top: 30px;
   font-size: 38px;
 }
@@ -152,25 +152,40 @@ body {
   margin: 60px 0px 60px 0px;
 }
 
-main .about-us-text {
-  color: #ffffff;
+main .about-us-offers {
+  background-image: url("../../img/banner-about-us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 860px;
+}
+main .about-us-offers .subtitles {
+  margin: 0;
+}
+main .about-us-offers .rectangle {
+  background-color: rgba(32, 252, 143, 0.8);
+  width: 800px;
+  height: 400px;
+}
+main .about-us-offers .rectangle .about-us-text {
+  color: #000;
   font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 0px 100px 0px 100px;
 }
-main #aboutUsOffers {
+main .about-us-offers #aboutUsOffers {
   font-size: 34px;
   margin: 10px 10px 0px 40px;
   color: #ffffff;
 }
-main .form-container .form-label {
+main .about-us-offers .form-container .form-label {
   font-size: 34px;
   color: #ffffff;
   margin: 6px 10px 0px 40px;
 }
-main .form-container .form-control {
+main .about-us-offers .form-container .form-control {
   width: 400px;
   height: 36px;
   margin: 10px 10px 10px 40px;
@@ -223,22 +238,28 @@ main .card .card-body {
   color: #ffffff;
 }
 
-main .form-label {
+main .log-in-account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .log-in-account .form-label {
   font-size: 24px;
   color: #ffffff;
   margin: 10px;
 }
-main .form-control {
+main .log-in-account .form-control {
   width: 200px;
   height: 20px;
 }
-main .account a {
+main .log-in-account .account a {
   color: #ffffff;
   text-decoration: none;
   display: block;
   margin: 10px;
 }
-main .account .sign-up-link {
+main .log-in-account .account .sign-up-link {
   color: #20FC8F;
 }
 
