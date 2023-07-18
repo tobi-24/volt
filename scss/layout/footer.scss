@@ -3,14 +3,17 @@ footer{
     .footer-text{
         margin-top: 30px;
         font-size: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .footer-icons{
-        display: inline-flex;
-        justify-content: space-between;
-        .fab{
-            height: 0px;
-            width: 0px;
+        display: flex;
+        justify-content: center;
+        a{
+            font-size: 40px;
             color: $seconadary-color;
+            margin: 8px;
         }
     }   
     #help{
@@ -20,7 +23,10 @@ footer{
             a{
                 text-decoration: none;
                 color: $tertiary-color;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
-    }
+    }   
 }
