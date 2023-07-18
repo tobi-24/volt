@@ -93,6 +93,15 @@ footer .footer-text {
   margin-top: 30px;
   font-size: 38px;
 }
+footer .footer-icons {
+  display: inline-flex;
+  justify-content: space-between;
+}
+footer .footer-icons .fab {
+  height: 0px;
+  width: 0px;
+  color: #38423B;
+}
 footer #help {
   list-style-type: none;
 }
@@ -208,7 +217,7 @@ main .contact-info {
 }
 
 main .hero {
-  background-image: url("../img/banner.jpg");
+  background-image: url("../../img/banner-index.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;

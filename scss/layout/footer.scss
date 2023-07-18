@@ -4,6 +4,15 @@ footer{
         margin-top: 30px;
         font-size: 38px;
     }
+    .footer-icons{
+        display: inline-flex;
+        justify-content: space-between;
+        .fab{
+            height: 0px;
+            width: 0px;
+            color: $seconadary-color;
+        }
+    }   
     #help{
         list-style-type: none;
         li{
