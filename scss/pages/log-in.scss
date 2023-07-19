@@ -1,28 +1,38 @@
 main{
-    .log-in-account{
+    .rectangle-log-in{
+        background-color: rgba(32, 252, 143, 0.8);
+        width: 400px;
+        height: 100vh;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
+        align-content: center;
         align-items: center;
-       .form-label{
-        font-size: 24px;
-        color: $seventh-color;
-        margin: 10px;
-        }
-        .form-control{
-        width: 200px;
-        height: 20px;
-        }
-        .account{
-            a{
-            color: $seventh-color;
-            text-decoration: none;
-            display: block;
-            margin: 10px;
+            .log-in-account{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                .form-label{
+                font-size: 24px;
+                color: $seventh-color;
+                margin: 10px;
+                }
+                .form-control{
+                width: 200px;
+                height: 20px;
+                }
+                .account{
+                    a{
+                    color: $seventh-color;
+                    text-decoration: none;
+                    display: block;
+                    margin: 10px;
+                    }
+                    .sign-up-link{
+                    color: $primary-color;
+                    }
+                }
             }
-            .sign-up-link{
-            color: $primary-color;
-            }
-        }
     }
 }

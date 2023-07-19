@@ -240,28 +240,38 @@ main .card .card-body {
   color: #ffffff;
 }
 
-main .log-in-account {
+main .rectangle-log-in {
+  background-color: rgba(32, 252, 143, 0.8);
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+main .rectangle-log-in .log-in-account {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main .log-in-account .form-label {
+main .rectangle-log-in .log-in-account .form-label {
   font-size: 24px;
   color: #ffffff;
   margin: 10px;
 }
-main .log-in-account .form-control {
+main .rectangle-log-in .log-in-account .form-control {
   width: 200px;
   height: 20px;
 }
-main .log-in-account .account a {
+main .rectangle-log-in .log-in-account .account a {
   color: #ffffff;
   text-decoration: none;
   display: block;
   margin: 10px;
 }
-main .log-in-account .account .sign-up-link {
+main .rectangle-log-in .log-in-account .account .sign-up-link {
   color: #20FC8F;
 }
 
