@@ -15,18 +15,24 @@ footer{
             color: $seconadary-color;
             margin: 8px;
         }
-    }   
-    #help{
+    }
+    .help-footer{
+        display: flex;
+        flex-direction: column;        
+        #help{
         list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
         li{
             font-size: 20px;
             a{
                 text-decoration: none;
                 color: $tertiary-color;
-                display: flex;
-                justify-content: center;
-                align-items: center;
             }
+        }
         }
     }   
 }
