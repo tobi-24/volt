@@ -1,48 +1,17 @@
-@media (max-width: 576px) {
-  .nav-item {
-    font-size: 18px;
-    margin: 0px;
-    padding: 0px;
-  }
-  .nav-item .nav-link {
-    margin: 4px !important;
-  }
-  .hero {
-    background-position: center;
-  }
-  .hero h2 {
-    font-size: 84px !important;
-  }
-  .featured-products h3 {
-    margin-top: 16px;
-    font-size: 26px;
-  }
-  .featured-products .col {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  .featured-products .col .card {
-    padding: 10px;
-    margin-bottom: 30px;
-  }
-  .footer-text {
-    margin-top: 16px;
-    font-size: 26px;
-    font-size: 20px !important;
-  }
-  #help li a {
-    font-size: 16px;
-  }
-  .products-stock h2 {
-    margin: 40px 0px 20px 0px;
-    font-size: 36px;
-  }
-  .products-stock .col {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-}
+/* Error: Undefined variable.
+ *    ,
+ * 64 |         color: $seconadary-color;
+ *    |                ^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss\basics\mediaqueries.scss 64:16  root stylesheet */
 
-/*# sourceMappingURL=mediaqueries.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 64 \2502          color: $seconadary-color;\d\a    \2502                 ^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\basics\\mediaqueries.scss 64:16  root stylesheet";
+}
