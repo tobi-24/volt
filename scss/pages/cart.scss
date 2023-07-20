@@ -1,7 +1,32 @@
 main{
-    #seeProducts{
+    #cart{
+        height: 59vh;
+        img{
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        p{
+            color: $seventh-color;
+            font-size: 20px;
+        }
+        .col{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container-buy{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 65px;
+        }
+         #seeProducts{
         color: $seventh-color;
         text-decoration: none;
+        padding-top: 10px;
+        margin-left: 15px;
+    }
     }
 }
 
