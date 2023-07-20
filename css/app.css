@@ -68,11 +68,12 @@
 }
 
 .log-in-btn {
-  width: 50px;
-  height: 30px;
+  width: 80px;
+  height: 40px;
+  border-radius: 12px;
   background-color: #20FC8F;
   color: #38423B;
-  margin: 10px;
+  margin: 2px;
 }
 
 footer {
@@ -200,13 +201,32 @@ main #seeProducts {
   text-decoration: none;
 }
 
-main .contact-container h3, main h4 {
-  margin-left: 20px;
-  font-size: 23px;
+main #contact {
+  height: 70vh;
 }
-main .contact-info {
-  color: #ffffff;
+main #contact .container-contact {
+  margin: 20px;
+  background-color: #20FC8F;
+  height: 270px;
+}
+main #contact .container-contact #contactIcon {
+  display: flex;
+  align-items: center;
+}
+main #contact .container-contact #contactIcon a {
+  font-size: 36px;
+  color: #000;
   text-decoration: none;
+}
+main #contact .container-contact #contactIcon .fa-instagram, main #contact .container-contact #contactIcon .fa-facebook, main #contact .container-contact #contactIcon .fa-whatsapp, main #contact .container-contact #contactIcon .fa-envelope, main #contact .container-contact #contactIcon .fa-phone {
+  font-size: 48px;
+  color: #000;
+}
+main #contact .container-contact #contactIcon h4 {
+  color: #000;
+  padding-left: 6px;
+  margin-bottom: 0px;
+  font-size: 40px;
 }
 
 main .hero {
@@ -240,39 +260,60 @@ main .card .card-body {
   color: #ffffff;
 }
 
-main .rectangle-log-in {
-  background-color: rgba(32, 252, 143, 0.8);
-  width: 400px;
-  height: 600px;
+main #logIn {
+  height: 75vh;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-}
-main .rectangle-log-in .log-in-account {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-around;
+}
+main #logIn .rectangle-log-in {
+  background-color: #20FC8F;
+  border-color: #ffffff;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 8px;
+  width: 400px;
+  height: 516px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+main #logIn .rectangle-log-in #logInTittle {
+  color: #000;
+  padding-top: 22px;
+  font-size: 38px;
+  margin-bottom: 0px;
+}
+main #logIn .rectangle-log-in .log-in-account {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
-main .rectangle-log-in .log-in-account .form-label {
+main #logIn .rectangle-log-in .log-in-account .form-label {
   font-size: 24px;
-  color: #ffffff;
-  margin: 10px;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
-main .rectangle-log-in .log-in-account .form-control {
-  width: 200px;
-  height: 20px;
+main #logIn .rectangle-log-in .log-in-account .form-control {
+  width: 270px;
+  height: 36px;
 }
-main .rectangle-log-in .log-in-account .account a {
-  color: #ffffff;
+main #logIn .rectangle-log-in .log-in-account .account {
+  font-size: 20px;
+  padding: 20px;
+}
+main #logIn .rectangle-log-in .log-in-account .account a {
+  color: #000;
   text-decoration: none;
-  display: block;
-  margin: 10px;
+  display: flex;
+  margin: 6px;
 }
-main .rectangle-log-in .log-in-account .account .sign-up-link {
-  color: #20FC8F;
+main #logIn .rectangle-log-in .log-in-account .account .sign-up-link {
+  color: #000;
 }
 
 /*# sourceMappingURL=app.css.map */

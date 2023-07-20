@@ -1,11 +1,29 @@
 main{
-    .contact-container h3, h4{
-        margin-left: 20px;
-        font-size: 23px;
-    }
-    .contact-info{
-        color: $seventh-color;
-        text-decoration: none;
-    }
+    #contact{
+        height: 70vh;
+        .container-contact{
+            margin: 20px;
+            background-color: $primary-color;
+            height: 270px;
+            #contactIcon{
+                display: flex;
+                align-items: center;
+                a{
+                    font-size: 36px;
+                    color: $sixth-color;
+                    text-decoration: none;
+                }
+                .fa-instagram, .fa-facebook, .fa-whatsapp, .fa-envelope, .fa-phone{
+                    font-size: 48px;
+                    color: $sixth-color;
+                }
+                h4{
+                    color: $sixth-color;
+                    padding-left: 6px;
+                    margin-bottom: 0px;
+                    font-size: 40px;
+                }
+            }
+        }
+    }   
 }
-
