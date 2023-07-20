@@ -64,37 +64,63 @@
     font-size: 18px !important;
     margin: 0px 20px !important;
   }
-  .rectangle-log-in {
+  section .rectangle-log-in {
     width: 340px !important;
     height: 460px !important;
   }
-  .rectangle-log-in #logInTittle {
-    color: #000;
-    padding-top: 12px;
+  section .rectangle-log-in #logInTittle {
+    padding-top: 12px !important;
   }
-  .rectangle-log-in .log-in-account {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .rectangle-log-in .log-in-account .form-label {
+  section .rectangle-log-in .log-in-account .form-label {
     font-size: 22px !important;
   }
-  .rectangle-log-in .log-in-account .form-control {
+  section .rectangle-log-in .log-in-account .form-control {
     height: 30px !important;
   }
-  .rectangle-log-in .log-in-account .account {
-    font-size: 20px;
-    padding: 20px;
+  section .rectangle-log-in .log-in-account .account {
+    font-size: 15px !important;
+    margin-right: 40px;
   }
-  .rectangle-log-in .log-in-account .account a {
-    color: #000;
-    text-decoration: none;
+  #contact {
+    height: 95vh !important;
+  }
+  #contact h2 {
+    font-size: 36px;
+    padding: 0px;
+  }
+  #contact .container-contact {
+    width: 200px;
+    height: 200px !important;
+  }
+  #contact .container-contact #contactIcon a {
+    font-size: 28px !important;
+  }
+  #contact .container-contact #contactIcon .fa-instagram, #contact .container-contact #contactIcon .fa-facebook, #contact .container-contact #contactIcon .fa-whatsapp, #contact .container-contact #contactIcon .fa-envelope, #contact .container-contact #contactIcon .fa-phone {
+    font-size: 28px !important;
+  }
+  #contact .container-contact #contactIcon h4 {
+    font-size: 20px !important;
+  }
+  #contact .map-contact {
+    width: 200px !important;
     display: flex;
-    margin: 6px;
   }
-  .rectangle-log-in .log-in-account .account .sign-up-link {
-    color: #000;
+  .subtitles {
+    font-size: 36px !important;
+    margin: 0px !important;
+  }
+  #cart {
+    height: 62vh !important;
+  }
+  #cart img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  #cart p {
+    font-size: 16px !important;
+  }
+  #cart .container-buy {
+    justify-content: flex-start !important;
   }
 }
 .btn {
