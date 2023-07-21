@@ -7,12 +7,18 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
+        #typographyColor{
+            animation: changeTypographyColor 3s infinite;
+        }
         h2{
             color: $primary-color;
             padding: 20px;
             font-size: 160px;
             text-align: center;
             margin-top: 80px;
+            @include mediaquerie-mobile(){
+                font-size: 84px !important;
+            }
         }
     }
     .card{
@@ -23,10 +29,26 @@ main{
         margin-bottom: 80px;
         img{
             width: 100%;
-            height: auto; 
+            height: auto;
+            transition: transform 0.5s ease-in-out;
+            &:hover {
+                transform: scale(1.2);
+            }
         }
         .card-body{
             color: $seventh-color;
         }
     }       
+}
+
+@keyframes changeTypographyColor{
+    0%{
+        color: $seconadary-color;
+    }
+    50%{
+        color: $seventh-color ;
+    }
+    100%{
+        color: $sixth-color;
+    }
 }

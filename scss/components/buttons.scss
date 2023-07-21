@@ -18,6 +18,9 @@
     background-color: $primary-color;
     border-radius: 12px;
     font-size: 18px;
+    @include mediaquerie-mobile (){
+        margin-left: 10px;
+    }
     a{
         text-decoration: none;
         color: $sixth-color;

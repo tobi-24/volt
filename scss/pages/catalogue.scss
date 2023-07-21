@@ -1,0 +1,26 @@
+main{
+    #eachProduct{
+        height: 90vh;
+        .col{
+            display: flex;
+            align-items: center;
+            img{
+                width: 600px;
+                margin-top: 50px;
+                border: 15px solid $sixth-color;
+                border-radius: 8px;
+            }
+            .card-title, .card-text{
+                font-size: 26px;
+                color: $seventh-color;
+            }
+            .card-description{
+                font-size: 18px;
+                color: $seventh-color;
+                margin-top: 10px;
+            }
+        }
+        
+    }
+
+}

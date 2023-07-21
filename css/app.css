@@ -11,9 +11,6 @@
   .hero {
     background-position: center;
   }
-  .hero h2 {
-    font-size: 84px !important;
-  }
   .featured-products h3 {
     margin-top: 16px;
     font-size: 26px;
@@ -122,6 +119,19 @@
   #cart .container-buy {
     justify-content: flex-start !important;
   }
+  #eachProduct .col {
+    justify-content: center;
+  }
+  #eachProduct .col img {
+    width: 300px !important;
+    border-width: 8px !important;
+  }
+  #eachProduct .col .card-title {
+    margin-top: 20px;
+  }
+  #eachProduct .col .card-description {
+    font-size: 16px !important;
+  }
 }
 .btn {
   color: #2D2D2A;
@@ -141,6 +151,11 @@
   background-color: #20FC8F;
   border-radius: 12px;
   font-size: 18px;
+}
+@media (max-width: 576px) {
+  .button-buy {
+    margin-left: 10px;
+  }
 }
 .button-buy a {
   text-decoration: none;
@@ -311,6 +326,29 @@ main #cart #seeProducts {
   margin-left: 15px;
 }
 
+main #eachProduct {
+  height: 90vh;
+}
+main #eachProduct .col {
+  display: flex;
+  align-items: center;
+}
+main #eachProduct .col img {
+  width: 600px;
+  margin-top: 50px;
+  border: 15px solid #000;
+  border-radius: 8px;
+}
+main #eachProduct .col .card-title, main #eachProduct .col .card-text {
+  font-size: 26px;
+  color: #ffffff;
+}
+main #eachProduct .col .card-description {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
 main #contact {
   height: 70vh;
 }
@@ -348,12 +386,20 @@ main .hero {
   flex-direction: column;
   align-items: center;
 }
+main .hero #typographyColor {
+  animation: changeTypographyColor 3s infinite;
+}
 main .hero h2 {
   color: #20FC8F;
   padding: 20px;
   font-size: 160px;
   text-align: center;
   margin-top: 80px;
+}
+@media (max-width: 576px) {
+  main .hero h2 {
+    font-size: 84px !important;
+  }
 }
 main .card {
   background-color: #2D2D2A;
@@ -365,11 +411,26 @@ main .card {
 main .card img {
   width: 100%;
   height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+main .card img:hover {
+  transform: scale(1.2);
 }
 main .card .card-body {
   color: #ffffff;
 }
 
+@keyframes changeTypographyColor {
+  0% {
+    color: #38423B;
+  }
+  50% {
+    color: #ffffff;
+  }
+  100% {
+    color: #000;
+  }
+}
 main #logIn {
   height: 75vh;
   display: flex;
