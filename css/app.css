@@ -385,7 +385,7 @@ main #contact .container-contact #contactIcon h4 {
 }
 
 main .hero {
-  background-image: url("../../img/banner-index.jpg");
+  background-image: url("../img/banner-index.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
