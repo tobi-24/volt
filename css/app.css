@@ -265,7 +265,7 @@ body {
 }
 
 main .about-us-offers {
-  background-image: url("../../img/banner-about-us.jpg");
+  background-image: url("../img/banner-about-us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
